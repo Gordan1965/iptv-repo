@@ -1,0 +1,11 @@
+<settings>
+    <category label="General Settings">
+        <setting id="izvorTip" type="enum" label="Vrsta izvora" values="Internet|Lokalna datoteka|Interna memorija addona" default="Interna memorija addona" />
+           
+        <!-- Opcija za unos URL-a -->
+        <setting id="internetAdresa" type="text" label="Adresa" visible="eq(-1,0)" default="" />
+        
+        <!-- Opcija za pregledavanje lokalnih datoteka -->
+        <setting id="lokalnaAdresa" type="file" label="Datoteka" visible="eq(-2,1)" mask="*.txt" default="" />
+    </category>
+</settings>

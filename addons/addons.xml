@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="plugin.video.gogomaciptv" name="MAC IpTv Client by GoGo" version="1.0.0" provider-name="GoGo">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="script.module.requests" version="2.22.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+    </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Reprodukcija MAC IPTV servera</summary>
+            <description>Reprodukcija MAC IPTV servera</description>
+            <platform>all</platform>
+            <language>hr</language>
+            <config>resources/settings.xml</config>
+        </extension>
+    </addon>
+</addons>
